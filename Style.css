@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #64195c;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    grid-column: span 2;
+    background: #5f6770;
+    color: rgb(25, 171, 62);
+    padding: 15px;
+}
+
+nav {
+    background: #ddd;
+    padding: 15px;
+}
+
+main {
+    background: rgb(144, 127, 127);
+    padding: 15px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #771976;
+    color: rgb(228, 116, 116);
+    border: none;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9b2761;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #dec3c3;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    grid-column: span 2;
+    background: #4f5255;
+    color: rgb(168, 171, 26);
+    padding: 15px;
+}
+
+nav {
+    background: #2f858f;
+    padding: 15px;
+}
+
+main {
+    background: rgb(99, 3, 3);
+    padding: 15px;
+}
+
+.flex-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #e3464b;
+    color: rgb(171, 71, 122);
+    border: none;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b0f81;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    body {
+        font-size: 14px;
+    }
+}
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}

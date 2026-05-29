@@ -8,8 +8,8 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
-    background-color: #64195c;
+    color: #6b1f4e;
+    background-color: #aea1ac;
 }
 
 h1, h2, h3 {
@@ -53,16 +53,16 @@ main {
 }
 
 button {
-    background-color: #771976;
-    color: rgb(228, 116, 116);
+    background-color: #310f31;
+    color: rgb(211, 152, 152);
     border: none;
     padding: 10px 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 7px 5px rgba(171, 174, 129, 0.2);
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #9b2761;
+    background-color: #1a0f14;
 }
 
 button:active {
@@ -94,9 +94,9 @@ p {
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     line-height: 1.6;
-    color: #333;
+    color: #520915;
     background-color: #dec3c3;
 }
 
@@ -119,18 +119,18 @@ p {
 
 header {
     grid-column: span 2;
-    background: #4f5255;
+    background: #9f0f0f72;
     color: rgb(168, 171, 26);
     padding: 15px;
 }
 
 nav {
-    background: #2f858f;
+    background: #0c7d89;
     padding: 15px;
 }
 
 main {
-    background: rgb(99, 3, 3);
+    background: rgb(244, 115, 212);
     padding: 15px;
 }
 
@@ -141,11 +141,11 @@ main {
 }
 
 button {
-    background-color: #e3464b;
+    background-color: #171c7c;
     color: rgb(171, 71, 122);
     border: none;
     padding: 10px 15px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 57px 50px 90px rgba(90, 39, 191, 0.2);
     cursor: pointer;
 }
 
@@ -162,13 +162,20 @@ button:active {
     }
 
     body {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 p {
-    font-size: 1rem;
+    font-size: 2rem;
+}
+img {
+   max-width: 100%; width: 700px;
+    height:auto;
+}
+.my-image {
+    box-shadow: 700px 900px 880px rgb(164, 31, 31);
 }
